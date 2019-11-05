@@ -45,21 +45,21 @@ namespace KartGame.KartSystems
 
         void Update ()
         {
-            if (Input.GetKey (KeyCode.W))
+            if (Input.GetKey(KeyCode.W))
                 m_Acceleration = 1f;
-            else if (Input.GetKey (KeyCode.S))
+            else if (Input.GetKey(KeyCode.S))
                 m_Acceleration = -1f;
             else
                 m_Acceleration = 0f;
 
-            if (Input.GetKey (KeyCode.LeftArrow) && !Input.GetKey (KeyCode.D))
+            if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
                 m_Steering = -1f;
-            else if (!Input.GetKey (KeyCode.LeftArrow) && Input.GetKey (KeyCode.A))
+            else if (!Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D))
                 m_Steering = 1f;
             else
                 m_Steering = 0f;
 
-            m_HopHeld = Input.GetKey (KeyCode.X);
+            m_HopHeld = Input.GetKey(KeyCode.Space);
 
             if (m_FixedUpdateHappened)
             {
