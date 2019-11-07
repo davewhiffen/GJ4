@@ -59,7 +59,7 @@ namespace KartGame.KartSystems
             else
                 m_Steering = 0f;
 
-            m_HopHeld = Input.GetKey(KeyCode.Space);
+            m_HopHeld = Input.GetKey(KeyCode.V);
 
             if (m_FixedUpdateHappened)
             {
@@ -70,7 +70,7 @@ namespace KartGame.KartSystems
                 m_FirePressed = false;
             }
 
-            m_HopPressed |= Input.GetKeyDown (KeyCode.X);
+            m_HopPressed |= Input.GetKeyDown (KeyCode.V);
             m_BoostPressed |= Input.GetKeyDown (KeyCode.RightShift);
             m_FirePressed |= Input.GetKeyDown (KeyCode.RightControl);
         }
