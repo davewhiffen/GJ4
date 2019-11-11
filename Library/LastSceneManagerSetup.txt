@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Dave's Scene.unity
+- path: Assets/Scenes/Ashkan.unity
   isLoaded: 1
   isActive: 1
