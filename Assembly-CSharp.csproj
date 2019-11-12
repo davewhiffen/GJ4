@@ -531,6 +531,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Users/David/OneDrive/Documents/Unity/Editor/2018.4.9f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="EasyRoads3Dv3">
+      <HintPath>C:/Users/David/OneDrive/Documents/GitHub/GJ4/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+    </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>C:/Users/David/OneDrive/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -593,9 +596,6 @@
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>C:/Users/David/OneDrive/Documents/GitHub/GJ4/Library/PackageCache/com.unity.connect.share@1.0.4-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="EasyRoads3Dv3">
-      <HintPath>C:/Users/David/OneDrive/Documents/GitHub/GJ4/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Users/David/OneDrive/Documents/Unity/Editor/2018.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

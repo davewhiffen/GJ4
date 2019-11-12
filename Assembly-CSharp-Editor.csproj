@@ -368,6 +368,12 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="EasyRoads3Dv3Editor">
+      <HintPath>C:/Users/David/OneDrive/Documents/GitHub/GJ4/Assets/EasyRoads3D/Editor/EasyRoads3Dv3Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyRoads3Dv3">
+      <HintPath>C:/Users/David/OneDrive/Documents/GitHub/GJ4/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+    </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>C:/Users/David/OneDrive/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -439,12 +445,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/David/OneDrive/Documents/GitHub/GJ4/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="EasyRoads3Dv3">
-      <HintPath>C:/Users/David/OneDrive/Documents/GitHub/GJ4/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
-    </Reference>
-    <Reference Include="EasyRoads3Dv3Editor">
-      <HintPath>C:/Users/David/OneDrive/Documents/GitHub/GJ4/Assets/EasyRoads3D/Editor/EasyRoads3Dv3Editor.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Users/David/OneDrive/Documents/Unity/Editor/2018.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
