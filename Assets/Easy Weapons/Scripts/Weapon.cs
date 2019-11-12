@@ -17,6 +17,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Rewired;
 
 public enum WeaponType
 {
@@ -35,6 +36,10 @@ public enum BulletHoleSystem
 	Material,
 	Physic_Material
 }
+
+
+
+
 
 
 [System.Serializable]
@@ -68,8 +73,12 @@ public class SmartBulletHoleGroup
 // The Weapon class itself handles the weapon mechanics
 public class Weapon : MonoBehaviour
 {
-	// Weapon Type
-	public WeaponType type = WeaponType.Projectile;		// Which weapon system should be used
+  
+    
+
+
+    // Weapon Type
+    public WeaponType type = WeaponType.Projectile;		// Which weapon system should be used
 	
 	// External Tools
 	public bool shooterAIEnabled = false;				// Enable features compatible with Shooter AI by Gateway Games
@@ -212,6 +221,12 @@ public class Weapon : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
+
+
+
+
+
+
 		// Calculate the actual ROF to be used in the weapon systems.  The rateOfFire variable is
 		// designed to make it easier on the user - it represents the number of rounds to be fired
 		// per second.  Here, an actual ROF decimal value is calculated that can be used with timers.

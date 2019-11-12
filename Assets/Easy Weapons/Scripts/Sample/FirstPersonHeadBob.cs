@@ -24,8 +24,7 @@ public class FirstPersonHeadBob : MonoBehaviour {
 	
 	// audio clip references
 	[SerializeField] AudioClip[] footstepSounds;		// an array of footstep sounds that will be randomly selected from.
-	[SerializeField] AudioClip jumpSound;				// the sound played when character leaves the ground.
-	[SerializeField] AudioClip landSound;				// the sound played when character touches back on ground.
+	[SerializeField] AudioClip jumpSound;				// the sound played when character leaves the ground
 
 	// private vars:
 	FirstPersonCharacter character;						// a reference to the First Person Character component (on the parent gameobject)
@@ -130,7 +129,7 @@ public class FirstPersonHeadBob : MonoBehaviour {
 		{
 			if (!prevGrounded)
 			{
-				GetComponent<AudioSource>().clip = landSound;
+		
 				GetComponent<AudioSource>().Play();
 				//nextStepTime = headBobCycle + .5f;
 				
