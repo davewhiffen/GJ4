@@ -66,58 +66,58 @@
     <Compile Include="Assets\UTech\MG-Karting\BasicAssets\Scripts\KartSystems\KartMovement\Editor\KartMovementEditor.cs" />
     <Compile Include="Assets\UTech\MG-Karting\BasicAssets\Scripts\Utilities\Editor\RequireInterfaceAttributeDrawer.cs" />
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Connect.Share.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.UIWidgets">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.InteractiveTutorialsFramework">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.024">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/2018.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -347,6 +347,9 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:/Program Files/Unity/2018.4.9f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:/Program Files/Unity/2018.4.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/2018.4.9f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -357,67 +360,73 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Antlr3.Runtime">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.Core.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.Core.Runtime">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.Flow.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.Flow.Runtime">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.State.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.State.Runtime">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Ionic.Zip">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Ionic.Zip.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Ionic.Zip.dll</HintPath>
     </Reference>
     <Reference Include="Ludiq.Core.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Ludiq.Core.Runtime">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Ludiq.Graphs.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Ludiq.Graphs.Runtime">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Ludiq.Platforms">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll</HintPath>
     </Reference>
     <Reference Include="MiscUtil">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/MiscUtil.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/MiscUtil.dll</HintPath>
     </Reference>
     <Reference Include="YamlDotNet">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/PackageCache/com.unity.connect.share@1.0.4-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/PackageCache/com.unity.connect.share@1.0.4-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/david.whiffen/Downloads/GJ4 Nov 7 1030am/GJ4/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/2018.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
