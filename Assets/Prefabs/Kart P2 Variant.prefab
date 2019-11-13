@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11e1876ddae4a1046b64b5dd5c293c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canDie: 1
-  startingHealth: 100
-  maxHealth: 100
-  replaceWhenDead: 1
+  canDie: 0
+  startingHealth: 500
+  maxHealth: 500
+  replaceWhenDead: 0
   deadReplacement: {fileID: 3763822634849867148, guid: f6d9645eff12f7c4da5f64eda98aa10c,
     type: 3}
   makeExplosion: 0

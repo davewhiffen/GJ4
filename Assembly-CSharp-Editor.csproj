@@ -440,6 +440,12 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/david.whiffen/Documents/GitHub/GJ4/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="EasyRoads3Dv3">
+      <HintPath>C:/Users/david.whiffen/Documents/GitHub/GJ4/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyRoads3Dv3Editor">
+      <HintPath>C:/Users/david.whiffen/Documents/GitHub/GJ4/Assets/EasyRoads3D/Editor/EasyRoads3Dv3Editor.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/2018.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
     </Reference>

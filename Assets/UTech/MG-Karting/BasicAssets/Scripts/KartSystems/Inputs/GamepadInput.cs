@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using Rewired;
 
 namespace KartGame.KartSystems
 {
@@ -8,10 +7,6 @@ namespace KartGame.KartSystems
     /// </summary>
     public class GamepadInput : MonoBehaviour, IInput
     {
-      
-
-
-
         public float Acceleration
         {
             get { return m_Acceleration; }
@@ -50,7 +45,7 @@ namespace KartGame.KartSystems
         {
             if (Input.GetButton ("Brake"))
                 m_Acceleration = -1f;
-            else if (Input.GetButton ("Vertical"))
+            else if (Input.GetButton ("Accelerate"))
                 m_Acceleration = 1f;
             else
                 m_Acceleration = 0f;
@@ -68,15 +63,14 @@ namespace KartGame.KartSystems
                 m_FirePressed = false;
             }
 
-            m_HopPressed |= Input.GetButtonDown("Hop");
+            m_HopPressed |= Input.GetButtonDown ("Hop");
             m_BoostPressed |= Input.GetButtonDown ("Boost");
-            m_FirePressed |= Input.GetButtonDown ("Fire1");
+            m_FirePressed |= Input.GetButtonDown ("Fire");
         }
 
         void FixedUpdate ()
         {
             m_FixedUpdateHappened = true;
-          
         }
     }
 }

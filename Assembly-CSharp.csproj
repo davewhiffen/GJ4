@@ -215,8 +215,8 @@
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Drawing.xml" />
     <None Include="Assets\Ludiq\Bolt\Documentation\0. READ ME FIRST.txt" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.State.Runtime.xml" />
-    <None Include="Assets\Add-Ons\FreeMachineGun\Shader\BDCS.shader" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.State.Editor.xml" />
+    <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D-Surface-Offset.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Remoting.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Configuration.Install.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.DirectoryServices.xml" />
@@ -247,7 +247,6 @@
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Core.Runtime.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Entity.Design.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Add-Ons\FreeMachineGun\documentation.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.IdentityModel.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.xml" />
     <None Include="Assets\Rewired\Documentation\ReleaseNotes.txt" />
@@ -264,6 +263,7 @@
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.SqlXml.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.DynamicData.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D - Unity Standard 2018.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.AddIn.Contract.xml" />
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Graphs.Editor.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
@@ -591,6 +591,9 @@
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>C:/Users/david.whiffen/Documents/GitHub/GJ4/Library/PackageCache/com.unity.connect.share@1.0.4-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyRoads3Dv3">
+      <HintPath>C:/Users/david.whiffen/Documents/GitHub/GJ4/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/2018.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
