@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Track_1.unity
+- path: Assets/Scenes/Dave's Scene.unity
   isLoaded: 1
   isActive: 1
