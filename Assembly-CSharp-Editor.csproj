@@ -60,71 +60,83 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BOXOPHOBIC\Utils\Editor\BConst.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\Editor\BEditorGUI.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\Editor\BEditorUtils.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\Editor\BVersion.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BBannerDrawer.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BCategoryAttributeDrawer.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BCategoryDrawer.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BInteractiveAttributeDrawer.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BInteractiveDrawer.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BMessageAttributeDrawer.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BMessageDrawer.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BRangeOptionsAttributeDrawer.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BRangeSimpleAttributeDrawer.cs" />
-    <Compile Include="Assets\Easy Weapons\Editor\WeaponEditor.cs" />
-    <Compile Include="Assets\Install Bolt\Editor\InstallBoltMenuItem.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\About\Editor\pb_AboutWindow.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\About\Editor\pb_UpdateAvailable.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\About\Editor\pb_VersionInfo.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\About\Editor\pb_VersionUtil.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Editor\ClearUnusedAttributes.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Editor\CreateShadowObject.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Editor\CustomAction.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Editor\EditorCallbackViewer.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Editor\RenameNewObjects.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Editor\SetCustomUnwrapParams.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\Addons\pb_Fbx.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_ExportObj.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_GenerateUV2.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_MakeMeshAsset.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_ProBuilderize.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_StripProBuilderScripts.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_BridgeEdges.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ConformNormals.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ConnectEdges.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_DetachDeleteFace.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ExtrudeElement.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FlipEdge.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FlipNormals.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FreezeTransform.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_MergeFaces.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_SetPivot.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_Triangulate.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_VertexMergeWeld.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_CleanLeakedMeshes.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_ForceSceneRefresh.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RebuildMeshes.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RebuildSharedIndices.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RemoveDegenerateTris.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairColors.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairMeshReferences.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairUV.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_ResetEntityMaterials.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_UpgradeBasicToAdvanced.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_EdgeSelection.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_ExpandSelection.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_InvertSelection.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_MaterialSelection.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Tools\pb_BooleanInterface.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Tools\pb_MaterialSelection.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Window\pb_ProBuilderMenuItems.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_MenuItems.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_Preferences.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_ScenePostProcessor.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\Editor\BConst.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\Editor\BEditorGUI.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\Editor\BEditorUtils.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\Editor\BVersion.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BBannerDrawer.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BCategoryAttributeDrawer.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BCategoryDrawer.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BInteractiveAttributeDrawer.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BInteractiveDrawer.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BMessageAttributeDrawer.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BMessageDrawer.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BRangeOptionsAttributeDrawer.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\Editor\BRangeSimpleAttributeDrawer.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Editor\WeaponEditor.cs" />
+    <Compile Include="Assets\Add-Ons\Install Bolt\Editor\InstallBoltMenuItem.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\About\Editor\pb_AboutWindow.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\About\Editor\pb_UpdateAvailable.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\About\Editor\pb_VersionInfo.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\About\Editor\pb_VersionUtil.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Editor\ClearUnusedAttributes.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Editor\CreateShadowObject.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Editor\CustomAction.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Editor\EditorCallbackViewer.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Editor\RenameNewObjects.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Editor\SetCustomUnwrapParams.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\Addons\pb_Fbx.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_ExportObj.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_GenerateUV2.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_MakeMeshAsset.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_ProBuilderize.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_StripProBuilderScripts.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_BridgeEdges.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ConformNormals.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ConnectEdges.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_DetachDeleteFace.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ExtrudeElement.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FlipEdge.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FlipNormals.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FreezeTransform.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_MergeFaces.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_SetPivot.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_Triangulate.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_VertexMergeWeld.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_CleanLeakedMeshes.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_ForceSceneRefresh.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RebuildMeshes.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RebuildSharedIndices.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RemoveDegenerateTris.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairColors.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairMeshReferences.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairUV.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_ResetEntityMaterials.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_UpgradeBasicToAdvanced.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_EdgeSelection.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_ExpandSelection.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_InvertSelection.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_MaterialSelection.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Tools\pb_BooleanInterface.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Tools\pb_MaterialSelection.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\MenuItems\Window\pb_ProBuilderMenuItems.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\pb_MenuItems.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\pb_Preferences.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\Editor\pb_ScenePostProcessor.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\Editor\ControlMapperInspector.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\Editor\CustomButtonInspector.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\Editor\CustomSliderInspector.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\Editor\CustomToggleInspector.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\TouchControls\Scripts\Editor\MenuCommands.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\Editor\CustomInspectors\ControllerDataFilesInspector.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\Editor\CustomInspectors\CustomInspector_External.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\Editor\CustomInspectors\HardwareJoystickMapInspector.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\Editor\CustomInspectors\HardwareJoystickTemplateMapInspector.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\Editor\CustomInspectors\InputManagerInspector.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\Editor\CustomInspectors\UserDataStore_PlayerPrefsInspector.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\Editor\UnityEditorBridge.cs" />
     <Compile Include="Assets\UTech\MG-Karting\BasicAssets\Editor\AutoLockUILayer.cs" />
     <Compile Include="Assets\UTech\MG-Karting\BasicAssets\Scripts\KartSystems\KartMovement\Editor\KartMovementEditor.cs" />
     <Compile Include="Assets\UTech\MG-Karting\BasicAssets\Scripts\Utilities\Editor\RequireInterfaceAttributeDrawer.cs" />
@@ -423,10 +435,37 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="EasyRoads3Dv3Editor">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/EasyRoads3D/Editor/EasyRoads3Dv3Editor.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/EasyRoads3D/Editor/EasyRoads3Dv3Editor.dll</HintPath>
     </Reference>
     <Reference Include="EasyRoads3Dv3">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore-Unity5">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps-Unity5">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderEditor-Unity5">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Editor">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/Rewired/Internal/Libraries/Editor/Rewired_Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/Rewired/Internal/Libraries/Runtime/Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Windows_Lib">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/Rewired/Internal/Libraries/Runtime/Rewired_Windows_Lib.dll</HintPath>
     </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
@@ -472,24 +511,6 @@
     </Reference>
     <Reference Include="YamlDotNet">
       <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="KdTreeLib">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
-    </Reference>
-    <Reference Include="pb_Stl">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
-    </Reference>
-    <Reference Include="Poly2Tri">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderEditor-Unity5">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

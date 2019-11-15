@@ -60,35 +60,89 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\BCategoryAttribute.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\BInteractiveAttribute.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\BMessageAttribute.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\BRangeOptionsAttribute.cs" />
-    <Compile Include="Assets\BOXOPHOBIC\Utils\PropertyDrawers\BRangeSimpleAttribute.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\BombFragment.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\BulletHole.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\BulletHolePool.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\Easy Camera Shake\Demo\VibrationDemo.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\Easy Camera Shake\Vibration.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\Explosion.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\Health.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\Projectile.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\Sample\FirstPersonCharacter.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\Sample\FirstPersonHeadBob.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\Sample\MouseRotator.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\SlowMotion.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\Spawner.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\TimedObjectDestroyer.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\Weapon.cs" />
-    <Compile Include="Assets\Easy Weapons\Scripts\WeaponSystem.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
-    <Compile Include="Assets\RedHealth.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\BCategoryAttribute.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\BInteractiveAttribute.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\BMessageAttribute.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\BRangeOptionsAttribute.cs" />
+    <Compile Include="Assets\Add-Ons\BOXOPHOBIC\Utils\PropertyDrawers\BRangeSimpleAttribute.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\BombFragment.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\BulletHole.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\BulletHolePool.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\Easy Camera Shake\Demo\VibrationDemo.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\Easy Camera Shake\Vibration.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\Explosion.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\Health.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\Sample\FirstPersonCharacter.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\Sample\FirstPersonHeadBob.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\Sample\MouseRotator.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\SlowMotion.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\Spawner.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\TimedObjectDestroyer.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\Weapon.cs" />
+    <Compile Include="Assets\Add-Ons\Easy Weapons\Scripts\WeaponSystem.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
+    <Compile Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\ControlRemapping1\Scripts\ControlRemappingDemo1.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\CustomControllersTilt\Scripts\CustomControllersTiltDemo.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\CustomControllersTouch\Scripts\CustomControllerDemo.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\CustomControllersTouch\Scripts\CustomControllerDemo_Player.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\CustomControllersTouch\Scripts\TouchButtonExample.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\CustomControllersTouch\Scripts\TouchControllerExample.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\CustomControllersTouch\Scripts\TouchJoystickExample.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\EightPlayers\Scripts\EightPlayersExample_Player.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\FallbackJoystickIdentification\Scripts\FallbackJoystickIdentificationDemo.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\PressAnyButtonToJoin\Scripts\PressAnyButtonToJoinExample_Assigner.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\PressAnyButtonToJoin\Scripts\PressAnyButtonToJoinExample_GamePlayer.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\PressStartToJoin\Scripts\PressStartToJoinExample_Assigner.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\PressStartToJoin\Scripts\PressStartToJoinExample_GamePlayer.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\Shared\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Examples\SimpleControlRemapping\Scripts\SimpleControlRemapping.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Examples\ControlMapperDemo\Scripts\ControlMapperDemoMessage.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ButtonInfo.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\CalibrationWindow.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\CanvasScalerExt.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\CanvasScalerFitter.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ControlMapper.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ControlMapper_Classes.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ControlMapper_Enums.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ControlMapper_InputGrid.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ControlMapper_WindowManager.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\CustomButton.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\CustomSlider.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\CustomToggle.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ICustomSelectable.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\InputBehaviorWindow.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\InputFieldInfo.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\InputRow.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\LanguageData.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ScrollbarVisibilityHelper.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ScrollRectSelectableChild.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ThemedElement.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ThemeSettings.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\ToggleInfo.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\UIControl.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\UIControlSet.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\UIElementInfo.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\UIGroup.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\UIImageHelper.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\UISelectionUtility.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\UISliderControl.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\UITools.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\ControlMapper\Scripts\Window.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Extras\TouchControls\Examples\TouchControls1\Scripts\TouchControls1_ManipulateCube.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Integration\UnityUI\RewiredStandaloneInputModule.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\DataStorage\UserDataStore_PlayerPrefs.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\Misc\ExternalTools.cs" />
+    <Compile Include="Assets\Add-Ons\Rewired\Internal\Scripts\Platforms\Ouya\OuyaInputSource.cs" />
     <Compile Include="Assets\Scripts\BoostSound.cs" />
+    <Compile Include="Assets\Scripts\ColliderFix.cs" />
+    <Compile Include="Assets\Scripts\RedHealth.cs" />
     <Compile Include="Assets\UTech\MG-Karting\BasicAssets\Scripts\KartSystems\Inputs\GamepadInput.cs" />
     <Compile Include="Assets\UTech\MG-Karting\BasicAssets\Scripts\KartSystems\Inputs\GamepadInputP2.cs" />
     <Compile Include="Assets\UTech\MG-Karting\BasicAssets\Scripts\KartSystems\Inputs\IInput.cs" />
@@ -138,15 +192,15 @@
     <Compile Include="Assets\UTech\MG-Karting\ModAssets\ModResources\Scripts\Platformer\EmitParticlesOnLand.cs" />
     <None Include="Assets\Ludiq\Assemblies\YamlDotNet.xml" />
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Platforms.xml" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
-    <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Entity.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
-    <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\About\changelog.txt" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Entity.Design.xml" />
     <None Include="Assets\Ludiq\Assemblies\MiscUtil.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Configuration.xml" />
@@ -154,65 +208,61 @@
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Conversion.v3.5.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Engine.xml" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.Flow.Editor.xml" />
-    <None Include="Assets\BOXOPHOBIC\Utils\Shaders\StandardLit Prototype Terrain.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.DirectoryServices.AccountManagement.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Services.xml" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
-    <None Include="Assets\BOXOPHOBIC\Utils\Shaders\Unlit Prototype Ground.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+    <None Include="Assets\Add-Ons\Rewired\Extras\TouchControls\Shaders\ColorShift.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Messaging.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Windows.Presentation.xml" />
-    <None Include="Assets\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit.shader" />
-    <None Include="Assets\BOXOPHOBIC\Utils\Shaders\Unlit Prototype Skybox.shader" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Serialization.xml" />
     <None Include="Assets\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Basic.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.AddIn.xml" />
+    <None Include="Assets\Add-Ons\Rewired\Documentation\licences.txt" />
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Core.Editor.xml" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitSolidColor.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_UnlitSolidColor.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Xml.xml" />
-    <None Include="Assets\Easy Weapons\Readme.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_ReferenceUnlit.shader" />
-    <None Include="Assets\BOXOPHOBIC\Utils\Shaders\SimpleLit Prototype Terrain.shader" />
+    <None Include="Assets\Add-Ons\Easy Weapons\Readme.txt" />
+    <None Include="Assets\Add-Ons\Rewired\Documentation\ReadMe.txt" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_ReferenceUnlit.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Utilities.v3.5.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\Install Bolt\LICENSES.txt" />
+    <None Include="Assets\Add-Ons\Install Bolt\LICENSES.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Routing.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Services.Client.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.Web.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Entity.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Printing.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Drawing.xml" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
     <None Include="Assets\Ludiq\Bolt\Documentation\0. READ ME FIRST.txt" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.State.Runtime.xml" />
-    <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.State.Editor.xml" />
-    <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D-Surface-Offset.shader" />
+    <None Include="Assets\Add-Ons\EasyRoads3D\shaders\EasyRoads3D-Surface-Offset.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Remoting.xml" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Configuration.Install.xml" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.DirectoryServices.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Transactions.xml" />
-    <None Include="Assets\BOXOPHOBIC\Utils\CGIncludes\VS_indirect.cginc" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.DynamicData.Design.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\mscorlib.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Net.xml" />
-    <None Include="Assets\ProCore\ProBuilder\About\ThirdPartyLicenses.txt" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\About\ThirdPartyLicenses.txt" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.Core.Runtime.xml" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.DataSetExtensions.xml" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Core.xml" />
-    <None Include="Assets\Install Bolt\README.txt" />
+    <None Include="Assets\Add-Ons\Install Bolt\README.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Serialization.Formatters.Soap.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Ludiq\Assemblies\Ionic.Zip.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Management.Instrumentation.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ComponentModel.DataAnnotations.xml" />
-    <None Include="Assets\ProCore\ProBuilder\About\Font\SIL Open Font License.txt" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\About\Font\SIL Open Font License.txt" />
     <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D - Unity 5 Standard.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.EnterpriseServices.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceProcess.xml" />
@@ -221,7 +271,7 @@
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Security.xml" />
     <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D - Unity 5 StandardSpecular.shader" />
     <None Include="Assets\EasyRoads3D\prefab meshes\_custom prefabs.txt" />
-    <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Deployment.xml" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.Flow.Runtime.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
@@ -229,19 +279,19 @@
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Framework.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Abstractions.xml" />
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Core.Runtime.xml" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Entity.Design.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\FreeMachineGun\documentation.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.IdentityModel.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.xml" />
+    <None Include="Assets\Add-Ons\Rewired\Documentation\ReleaseNotes.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Services.Design.xml" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_NormalPreview.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_NormalPreview.shader" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.Core.Editor.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Management.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.VisualC.STLCLR.xml" />
-    <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
+    <None Include="Assets\Add-Ons\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
     <None Include="Assets\Ludiq\Bolt\LICENSES.txt" />
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Graphs.Runtime.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.WorkflowServices.xml" />
@@ -250,13 +300,13 @@
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.SqlXml.xml" />
     <None Include="Assets\EasyRoads3D\_Release Notes.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
     <None Include="Assets\EasyRoads3D\Resources\dynamic prefabs\dynamic prefabs.txt" />
-    <None Include="Assets\ProCore\ProBuilder\readme.txt" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\readme.txt" />
     <None Include="Assets\EasyRoads3D\Resources\custom prefabs\_custom prefabs.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.DynamicData.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D - Unity Standard 2018.shader" />
+    <None Include="Assets\Add-Ons\EasyRoads3D\shaders\EasyRoads3D - Unity Standard 2018.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.AddIn.Contract.xml" />
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Graphs.Editor.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
@@ -265,7 +315,7 @@
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Windows.Forms.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.xml" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_SmoothingPreview.shader" />
+    <None Include="Assets\Add-Ons\ProCore\ProBuilder\Shader\pb_SmoothingPreview.shader" />
     <None Include="Assets\UTech\MG-Karting\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Linq.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.xml" />
@@ -525,7 +575,28 @@
       <HintPath>C:/Program Files/Unity/2018.4.9f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="EasyRoads3Dv3">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore-Unity5">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps-Unity5">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/Rewired/Internal/Libraries/Runtime/Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Windows_Lib">
+      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Add-Ons/Rewired/Internal/Libraries/Runtime/Rewired_Windows_Lib.dll</HintPath>
     </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
@@ -571,21 +642,6 @@
     </Reference>
     <Reference Include="YamlDotNet">
       <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="KdTreeLib">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
-    </Reference>
-    <Reference Include="pb_Stl">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
-    </Reference>
-    <Reference Include="Poly2Tri">
-      <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/Graphic.SJH519-000W/Documents/GitHub/GJ4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
